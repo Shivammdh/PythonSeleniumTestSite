@@ -1,0 +1,3 @@
+[32mINFO    [0m test_formSubmission:test_HomePage.py:17 first Name is Ayushi Chandra
+[32mINFO    [0m test_formSubmission:test_HomePage.py:19 Email is ayuhi27@gmail.com
+[32mINFO    [0m test_formSubmission:test_HomePage.py:23 Gender is Female

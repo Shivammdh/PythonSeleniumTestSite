@@ -1,0 +1,3 @@
+[32mINFO    [0m test_formSubmission:test_HomePage.py:17 first Name is Shivam Sharma
+[32mINFO    [0m test_formSubmission:test_HomePage.py:19 Email is shivamsharmamdh@gmail.com
+[32mINFO    [0m test_formSubmission:test_HomePage.py:23 Gender is Male

@@ -1,0 +1,8 @@
+[32mINFO    [0m test_e2e:test_e2e.py:18 Getting All the card title
+[32mINFO    [0m test_e2e:test_e2e.py:21 iphone X
+[32mINFO    [0m test_e2e:test_e2e.py:21 Samsung Note 8
+[32mINFO    [0m test_e2e:test_e2e.py:21 Nokia Edge
+[32mINFO    [0m test_e2e:test_e2e.py:21 Blackberry
+[32mINFO    [0m test_e2e:test_e2e.py:28 Entring country IND
+[32mINFO    [0m test_e2e:test_e2e.py:35 Text massege assertion×
+Success! Thank you! Your order will be delivered in next few weeks :-).
