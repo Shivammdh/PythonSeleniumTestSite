@@ -14,14 +14,14 @@ class TestHomePage(BaseClass):
     def test_formSubmission(self,getData):
         log = self.getLogger()
         homepage=HomePage(self.driver)
-        log.info("first Name is "+getData['name'])
-        homepage.getName().send_keys(getData['name'])
-        log.info("Email is " + getData['email'])
-        homepage.getEmail().send_keys(getData['email'])
+        log.info("first Name is "+getData['Name'])
+        homepage.getName().send_keys(getData['Name'])
+        log.info("Email is " + getData['Email'])
+        homepage.getEmail().send_keys(getData['Email'])
         homepage.getPass().send_keys("Shivam@0105")
         homepage.chek().click()
-        log.info("Gender is " + getData['gender'])
-        self.selectOptionByText(homepage.getGender(),getData['gender'])
+        log.info("Gender is " + getData['Gender'])
+        self.selectOptionByText(homepage.getGender(),getData['Gender'])
         homepage.radioclick().click()
         self.driver.find_element(By.CSS_SELECTOR, "input.btn-success").click()
         succes_msg = self.driver.find_element(By.XPATH, "/html/body/app-root/form-comp/div/div[2]/div")
@@ -34,6 +34,6 @@ class TestHomePage(BaseClass):
         self.driver.refresh()
         time.sleep(3)
 
-    @pytest.fixture(params=HomePageData.test_Homepage_Data)
+    @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
     def getData(self,request):
         return request.param

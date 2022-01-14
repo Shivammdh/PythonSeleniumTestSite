@@ -32,3 +32,14 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2022-01-12 16:13:31,513 :INFO : test_e2e :Entring country IND
 2022-01-12 16:13:36,924 :INFO : test_e2e :Text massege assertion×
 Success! Thank you! Your order will be delivered in next few weeks :-).
+2022-01-14 16:26:46,632 :INFO : test_formSubmission :first Name is Bhavana Kadam
+2022-01-14 16:26:46,808 :INFO : test_formSubmission :Email is bhavna@gmail.com
+2022-01-14 16:26:46,956 :INFO : test_formSubmission :Gender is Female
+2022-01-14 16:27:02,544 :INFO : test_e2e :Getting All the card title
+2022-01-14 16:27:02,569 :INFO : test_e2e :iphone X
+2022-01-14 16:27:02,589 :INFO : test_e2e :Samsung Note 8
+2022-01-14 16:27:02,613 :INFO : test_e2e :Nokia Edge
+2022-01-14 16:27:02,630 :INFO : test_e2e :Blackberry
+2022-01-14 16:27:02,833 :INFO : test_e2e :Entring country IND
+2022-01-14 16:27:08,778 :INFO : test_e2e :Text massege assertion×
+Success! Thank you! Your order will be delivered in next few weeks :-).
